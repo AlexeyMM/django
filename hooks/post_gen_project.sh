@@ -2,11 +2,11 @@
 
 echo -ne "Running with "
 
-python --version
+python3 --version
 
 echo Creating and populating virtualenv..
 
-python -m venv venv
+python3 -m venv venv
 . venv/bin/activate
 
 pip install --upgrade pip pip-tools wheel
